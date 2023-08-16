@@ -1,7 +1,7 @@
 const http = require("http")
 const fs = require("fs")
 
-const port = 3000
+const port = 1233
 const server = http.createServer((req, res) => {
     fs.readFile('mensagem.html', function(err, data){
 
